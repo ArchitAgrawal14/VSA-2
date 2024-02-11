@@ -1,0 +1,242 @@
+.Left_Container{
+    height: 100%;
+    width: 50%;
+    background-color:white;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+.Form_Style{
+    margin-top:130px ;
+    margin-left: 118px;
+    margin-right: 118px;
+}
+.SignIn_Using_Apps{
+display: flex;
+justify-content: center;
+}
+.Below_SignInText{
+    display: flex;
+    justify-content: center;
+    color: grey;
+}
+
+.Email_Text{
+   font-weight: bold;
+}
+/* yaha niche attribute with a specific value(Email) selector use hua hai iska format aesa hota hai ([attribute|="value"]) */
+[value|="Email"]{
+    color:grey;
+}
+.Email_Box{
+    height: 25px;
+    width: 400px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    border: 2px solid whitesmoke;
+}
+.Password_Text{
+    font-weight: bold;
+}
+/* yaha niche attribute with a specific value(Password) selector use hua hai iska format aesa hota hai ([attribute|="value"]) */
+[value|="Password"]{
+    color: grey;
+}
+.Password_Box{
+    height: 25px;
+    border-radius: 15px;
+    width: 400px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    border: 2px solid whitesmoke;
+
+}
+.SignIn_Login_button{
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation:both 8s ease infinite;
+    color: whitesmoke;
+    border-radius: 15px;
+    padding-left: 100px;
+    padding-right:100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    width: 400px;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+}
+
+
+.App_signIn{
+    margin: 20px;
+}
+.Right_Container{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    right: 0%;
+    top: 0%;
+    
+}
+
+/* yaha se responsiveness chalu hai. */
+/* yaha pe Form ki hai. */
+@media(min-width:992px){
+    .Form_Responsiveness{
+        margin-top:130px ;
+        margin-left: 118px;
+        margin-right: 118px;
+}
+}
+@media(min-width:768px) and (max-width:992px){
+    .Form_Responsiveness{
+        margin-top:130px ;
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+}
+
+@media(min-width:600px) and (max-width:768px){
+    .Form_Responsiveness{
+        margin-top:130px ;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media(min-width:360px) and (max-width:600px){
+    .Form_Responsiveness{
+        margin-top:130px ;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+}
+@media(min-width:100px) and (max-width:360px){
+    .Form_Responsiveness{
+        margin-top:130px ;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+}
+
+@media(max-width:100px){
+    .Form_Responsiveness{
+        margin-top:130px ;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+}
+/* yaha pe signup button ki hai. */
+@media(min-width:992px){
+    .SignIn_Login_button{
+
+}
+}
+@media(min-width:768px) and (max-width:992px){
+    .SignIn_Login_button{
+        
+    }
+}
+
+@media(min-width:600px) and (max-width:768px){
+    .SignIn_Login_button{
+        
+    }
+}
+@media(min-width:360px) and (max-width:600px){
+    .SignIn_Login_button{
+        
+    }
+}
+@media(min-width:100px) and (max-width:360px){
+    .SignIn_Login_button{
+        
+    }
+}
+
+@media(max-width:100px){
+    .SignIn_Login_button{
+        
+    }
+}
+/* yaha se Password_Box ki hai. */
+/* @media(min-width:992px){
+    .Password_Box{
+        
+}
+}
+@media(min-width:768px) and (max-width:992px){
+    .Password_Box{
+        
+    }
+}
+
+@media(min-width:600px) and (max-width:768px){
+    .Password_Box{
+        
+    }
+}
+@media(min-width:360px) and (max-width:600px){
+    .Password_Box{
+        
+    }
+}
+@media(max-width:360px){
+    .Password_Box{
+        
+    }
+}
+@media(min-width:100px) and (max-width:360px){
+    .Password_Box{
+
+    }
+}
+
+@media(max-width:100px){
+    .Password_Box{
+    }
+} */
+/* yaha se .Email_Text ki hai. */
+/* @media(min-width:992px){
+    .Email_Text{
+        
+}
+}
+@media(min-width:768px) and (max-width:992px){
+    .Email_Text{
+        
+    }
+}
+
+@media(min-width:600px) and (max-width:768px){
+    .Email_Text{
+        
+    }
+}
+@media(min-width:360px) and (max-width:600px){
+    .Email_Text{
+        
+    }
+}
+@media(max-width:360px){
+    .Email_Text{
+        
+    }
+}
+@media(min-width:100px) and (max-width:360px){
+    .Email_Text{
+
+    }
+}
+
+@media(max-width:100px){
+    .Email_Text{
+    }
+} */
